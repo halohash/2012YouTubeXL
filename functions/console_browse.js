@@ -17,7 +17,7 @@ export async function onRequestGet() {
         const res = await fetch(url);
 
         if (!res.ok) {
-          return return {
+          return {
           dislikes: -1,
           time_created: 0,
           likes: -1,
